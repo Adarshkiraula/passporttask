@@ -13,7 +13,7 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 passport.use(new FacebookStrategy({  
   clientID: '208290477095675',
   clientSecret: '3c19cc93042d2129d77e67b09029ac11',
-  callbackURL: "https://chandra-verify.herokuapp.com/auth/facebook/callback",
+  callbackURL: "https://sd-adarshfb.herokuapp.com/auth/facebook/callback",
   profileFields: ['id', 'displayName', 'photos', 'email','profileUrl']
 },
 function(accessToken, refreshToken, profile, cb){
